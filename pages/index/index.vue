@@ -1,6 +1,7 @@
 <template>
 	<view>
 		<h4 class="title">跨平台Office文档预览UTS插件【非X5离线、组件嵌入、水印、WPS预览编辑】</h4>
+		<button style="margin: 6px 10px 0 10px" type="primary" @click="handlePlusCheckWPS">plus检查WPS是否安装</button>
 		<uni-section title="Office文档预览" type="line" padding>
 			<uni-grid :column="4" border-color="#03a9f4">
 				<uni-grid-item v-for="(item, index) in docList" :index="index" :key="index">
@@ -73,27 +74,47 @@
 			}
 		},
 		onLoad() {
-			uni.showLoading({
-				title: '插件首次初始化中'
-			});
-			this.initPluginFirst((code, msg) => {
-				if (code === 1) {
-					this.initPluginFirstSuccess = true;
-					uni.showToast({
-						title: '插件首次初始化成功',
-						duration: 2000
-					});
-				} else {
-					this.initPluginFirstSuccess = false;
-				}
-				uni.hideLoading();
-			})
+			// 获取平台
+			const { platform } = uni.getSystemInfoSync();
+			this.platform = platform;
+			if (this.platform === 'android') {
+				uni.showLoading({
+					title: '插件首次初始化中'
+				});
+				this.initPluginFirst((code, msg) => {
+					if (code === 1) {
+						this.initPluginFirstSuccess = true;
+						uni.showToast({
+							title: '插件首次初始化成功',
+							duration: 2000
+						});
+					} else {
+						this.initPluginFirstSuccess = false;
+					}
+					uni.hideLoading();
+				})
+			}
 			
 			// 检查WPS应用是否安装
 			console.log('checkWps', this.checkWps());
 		},
 
 		methods: {
+			// 判断第三方程序(WPS) 是否安装
+			handlePlusCheckWPS() {
+				const isExistApp = plus.runtime.isApplicationExist({pname:'cn.wps.moffice_eng', action:'KingsoftOfficeApp://'});
+				if (isExistApp) {
+					console.log("WPS应用已安装");
+					uni.showModal({
+						content: 'WPS应用已安装'
+					});
+				} else {
+					console.log("WPS应用未安装");
+					uni.showModal({
+						content: 'WPS应用未安装'
+					});
+				}
+			},
 			initPluginFirst(callback) {
 				UTSSealOfficeOnline.initEngine(callback);
 			},
@@ -137,35 +158,47 @@
 			 * @param {Object} imageCurrentIndex 当前图片位置下标，从0开始
 			 */
 			openFileImage(fileUrl, imageCurrentIndex) {
-				UTSSealOfficeOnline.openFileImage({
-						imageUrls: JSON.parse(JSON.stringify(this.imageList)),
-						imageCurrentIndex, // 当前点击图片在imageUrls中的下标，从0开始，默认为0
-						imageIndexType: 'number', // 图片底部指示器类型，默认为'dot'，可选：'number':数字；'dot':点
-						isSaveImg: true,
-					},
-					(code, msg) => {
-						console.log('openFileImage', code, msg);
+				if (this.platform === 'android') {
+					UTSSealOfficeOnline.openFileImage({
+							imageUrls: JSON.parse(JSON.stringify(this.imageList)),
+							imageCurrentIndex, // 当前点击图片在imageUrls中的下标，从0开始，默认为0
+							imageIndexType: 'number', // 图片底部指示器类型，默认为'dot'，可选：'number':数字；'dot':点
+							isSaveImg: true,
+						},
+						(code, msg) => {
+							console.log('openFileImage', code, msg);
+						});
+				} else if (this.platform === 'ios') {
+					UTSSealOfficeOnline.openFile({
+						url: fileUrl
 					});
+				}
 			},
 			/**
 			 * 音视频播放
 			 * @param {String} fileUrl 音视频url
 			 */
 			openFileVideo(fileUrl) {
-				UTSSealOfficeOnline.openFileVideo({
-						videoUrl: fileUrl,
-						isLive: true,
-						title: '音视频播放标题',
-						isTopBar: true,
-						isBackArrow: false,
-						topBarBgColor: '#F77234',
-						topBarTextColor: '#FCF26B',
-						topBarTextLength: 12
-					},
-					(code, msg) => {
-						console.log('openFileVideo', code, msg);
-					}
-				);
+				if (this.platform === 'android') {
+					UTSSealOfficeOnline.openFileVideo({
+							videoUrl: fileUrl,
+							isLive: true,
+							title: '音视频播放标题',
+							isTopBar: true,
+							isBackArrow: false,
+							topBarBgColor: '#F77234',
+							topBarTextColor: '#FCF26B',
+							topBarTextLength: 12
+						},
+						(code, msg) => {
+							console.log('openFileVideo', code, msg);
+						}
+					);
+				} else if (this.platform === 'ios') {
+					UTSSealOfficeOnline.openFile({
+						videoUrl: fileUrl
+					});
+				}
 			},
 			// 检查WPS应用是否安装，返回值：true或false
 			checkWps() {
