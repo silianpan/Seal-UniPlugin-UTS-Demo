@@ -170,7 +170,9 @@
 						});
 				} else if (this.platform === 'ios') {
 					UTSSealOfficeOnline.openFile({
-						url: fileUrl
+						url: fileUrl,
+						title: 'IOS图片预览',
+						topBarBgColor: '#3394EC'
 					});
 				}
 			},
