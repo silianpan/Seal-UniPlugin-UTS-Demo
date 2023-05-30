@@ -1,7 +1,8 @@
 <div class="half">
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/demo-android.gif" style="width:200px;height:auto" width="200px" />
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/demo-ios.gif" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OoXoqx.gif" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OoXOVt.gif" style="width:200px;height:auto" width="200px" />
 </div>
+
 
 ## 〇、前言
 
@@ -17,7 +18,7 @@
 
 <span style="color:red">各位同学，对于插件使用还有疑问的，可以加QQ群（170683293）咨询，也可以扫下面二维码进微信群。</span>
 
-<img src="http://silianpan.cn:8082/profile/demo-doc/Seal-UniPlugin-WeiXin.jpeg" width="240" style="width:240px;" />
+<img src="https://i.imgtg.com/2023/05/30/OoXnA1.png" width="240" style="width:240px;" />
 
 
 
@@ -433,37 +434,37 @@ openFileVideo(fileUrl) {
 
 * 嵌入预览
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/emed.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OolpAF.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览docx
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/docx.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/Ooltnb.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览pptx
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/pptx.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OolEms.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览xlsx
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/xlsx.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OolGYK.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览pdf
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/pdf.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OolLkB.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览txt
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/txt.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OolS5a.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览mp4
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/mp41.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/Ool44l.jpg" style="width:200px;height:auto" width="200px" />
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/mp42.jpg" style="width:600px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OolD6g.jpg" style="width:600px;height:auto" width="200px" />
 
 * 预览jpg
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/jpg.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OolJQ6.jpg" style="width:200px;height:auto" width="200px" />
 
 
 
@@ -471,35 +472,35 @@ openFileVideo(fileUrl) {
 
 * 嵌入预览
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/emed.png" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OolcSN.png" style="width:200px;height:auto" width="200px" />
 
 * 预览docx
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/docx.png" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OoldCC.png" style="width:200px;height:auto" width="200px" />
 
 * 预览pptx
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/pptx.png" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/Ooljpx.png" style="width:200px;height:auto" width="200px" />
 
 * 预览xlsx
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/xlsx.png" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/Ool85p.png" style="width:200px;height:auto" width="200px" />
 
 * 预览pdf
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/pdf.png" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/Ool9kt.png" style="width:200px;height:auto" width="200px" />
 
 * 预览txt
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/txt.png" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/Ool2Yj.png" style="width:200px;height:auto" width="200px" />
 
 * 预览mp4
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/mp4.png" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/Oolf6X.png" style="width:200px;height:auto" width="200px" />
 
 * 预览jpg
 
-  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/jpg1.png" style="width:200px;height:auto" width="200px" />
+  <img src="https://i.imgtg.com/2023/05/30/OolYDi.png" style="width:200px;height:auto" width="200px" />
 
 
 
