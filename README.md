@@ -1,8 +1,6 @@
 <div class="half">
-<img src="https://mp-1b95a362-fce7-4e72-896b-3e6e3254dbf1.cdn.bspapp.com/cloudstorage/1fd34e57-37cc-4cc1-9078-1ca179904fff.gif" style="width:200px;height:auto" width="200px" />
-
-<img src="https://mp-1b95a362-fce7-4e72-896b-3e6e3254dbf1.cdn.bspapp.com/cloudstorage/0e9a3252-7dba-4e87-b32e-582f8ac30385.gif" style="width:200px;height:auto" width="200px" />
-
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/demo-android.gif" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/demo-ios.gif" style="width:200px;height:auto" width="200px" />
 </div>
 
 ## 〇、前言
