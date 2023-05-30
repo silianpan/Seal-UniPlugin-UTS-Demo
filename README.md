@@ -19,7 +19,7 @@
 
 <span style="color:red">各位同学，对于插件使用还有疑问的，可以加QQ群（170683293）咨询，也可以扫下面二维码进微信群。</span>
 
-<img src="http://silianpan.cn/upload/2022/01/01/Seal-UniPlugin-WeiXin.jpeg" width="240" style="width:240px;" />
+<img src="http://silianpan.cn:8082/profile/demo-doc/Seal-UniPlugin-WeiXin.jpeg" width="240" style="width:240px;" />
 
 
 
@@ -435,37 +435,37 @@ openFileVideo(fileUrl) {
 
 * 嵌入预览
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/android/emed.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/emed.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览docx
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/android/docx.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/docx.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览pptx
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/android/pptx.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/pptx.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览xlsx
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/android/xlsx.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/xlsx.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览pdf
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/android/pdf.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/pdf.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览txt
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/android/txt.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/txt.jpg" style="width:200px;height:auto" width="200px" />
 
 * 预览mp4
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/android/mp41.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/mp41.jpg" style="width:200px;height:auto" width="200px" />
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/android/mp42.jpg" style="width:600px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/mp42.jpg" style="width:600px;height:auto" width="200px" />
 
 * 预览jpg
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/android/jpg.jpg" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/android/jpg.jpg" style="width:200px;height:auto" width="200px" />
 
 
 
@@ -473,35 +473,35 @@ openFileVideo(fileUrl) {
 
 * 嵌入预览
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/ios/emed.png" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/emed.png" style="width:200px;height:auto" width="200px" />
 
 * 预览docx
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/ios/docx.png" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/docx.png" style="width:200px;height:auto" width="200px" />
 
 * 预览pptx
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/ios/pptx.png" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/pptx.png" style="width:200px;height:auto" width="200px" />
 
 * 预览xlsx
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/ios/xlsx.png" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/xlsx.png" style="width:200px;height:auto" width="200px" />
 
 * 预览pdf
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/ios/pdf.png" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/pdf.png" style="width:200px;height:auto" width="200px" />
 
 * 预览txt
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/ios/txt.png" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/txt.png" style="width:200px;height:auto" width="200px" />
 
 * 预览mp4
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/ios/mp4.png" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/mp4.png" style="width:200px;height:auto" width="200px" />
 
 * 预览jpg
 
-  <img src="http://silianpan.cn/upload/2022/01/01/demo/ios/jpg1.png" style="width:200px;height:auto" width="200px" />
+  <img src="http://silianpan.cn:8082/profile/demo-doc/demo/ios/jpg1.png" style="width:200px;height:auto" width="200px" />
 
 
 
