@@ -1,0 +1,7 @@
+{
+	"frameworks": ["SealOfficeOnline.framework", "SVProgressHUD.framework"],
+	"deploymentTarget": "11.0",
+	"validArchitectures": [
+		"arm64"
+	]
+}
