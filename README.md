@@ -18,7 +18,7 @@
 
 <span style="color:red">各位同学，对于插件使用还有疑问的，可以加QQ群（170683293）咨询，也可以扫下面二维码进微信群。</span>
 
-<img src="https://i.imgtg.com/2023/05/30/OoXnA1.png" width="240" style="width:240px;" />
+<img src="http://silianpan.cn/upload/2022/01/01/Seal-UniPlugin-WeiXin.jpeg" width="240" style="width:240px;" />
 
 
 
