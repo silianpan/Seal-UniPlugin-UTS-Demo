@@ -1,7 +1,7 @@
 {
     "id": "seal-office-online-uts",
     "displayName": "跨平台Office文档预览UTS插件【非X5离线、组件嵌入、水印、WPS编辑】",
-    "version": "3.1.3",
+    "version": "3.2.2",
     "description": "非腾讯X5，无内核加载，稳定高可用，在线文档URL和离线均可使用，支持Android和IOS，支持Office文档，常用图片和音视频格式",
     "keywords": [
         "office文档预览",
