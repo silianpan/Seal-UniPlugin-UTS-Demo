@@ -15,10 +15,7 @@
         "HBuilderX": "^3.6.8"
     },
     "dcloudext": {
-        "category": [
-            "UTS插件",
-            "API插件"
-        ]
+        "type": "uts"
     },
     "uni_modules": {
         "dependencies": [],
